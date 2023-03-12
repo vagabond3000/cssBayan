@@ -1,3 +1,38 @@
-    @media screen {
-        
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.accordion {
+
     }
+.accordion-item {
+    margin-bottom: 20px;
+    position: relative;
+}
+.accordion-item-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.accordion-item-trigger {
+    display: block;
+    padding: 20px;
+    border-top: 1px solid gray;
+}
+.accordion-item-content {
+    padding: 20px;
+    display: none;
+}
+
+.accordion-item-input:checked ~ .accordion-item-trigger {}
+.accordion-item-input:checked ~ .accordion-item-content {
+    display: block;
+}
+
+img {
+    width: 70%;
+    text-align: center;
+}

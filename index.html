@@ -3,20 +3,58 @@
 <head>
     <meta charset=UTF-8>
     <title>CSS Bayan</title>
+    <link rel="stylesheet" href="CSS\style.css" type="text/css">
 </head>
 
 <body>
-    <h1>CSS Bayan</h1>
-    <div>
-        <p>Artificial Intelligence</p>
-        <img src="memes\AI.jpg">
-        <p>Evangelion</p>
-        <img src="memes\ebangelion.jpg">
-        <p>Employment</p>
-        <img src="memes\employment.jpg">
-        <p>Sigma</p>
-        <img src="memes\sigma.jpg">
-        <p>Willpower</p>
-        <img src="memes\trainspotting.jpg">
+    <div class="wrapper">
+        <h1>CSS Bayan</h1>
+        <div class="accordion">
+            <div class="accordion-item"></div>
+                <input class="accordion-item-input" type="checkbox" id="accordion-1">
+                <label class="accordion-item-trigger" for="accordion-1">
+                    Artificial Intelligence
+                </label>
+                <div class="accordion-item-content">
+                    <img src="memes\AI.jpg">
+                </div>
+            </div>
+            <div class="accordion-item"></div>
+                <input class="accordion-item-input" type="checkbox" id="accordion-2">
+                <label class="accordion-item-trigger" for="accordion-2">
+                    Evangelion
+                </label>
+                <div class="accordion-item-content">
+                    <img src="memes\ebangelion.jpg">
+                </div>
+            </div>
+            <div class="accordion-item"></div>
+                <input class="accordion-item-input" type="checkbox" id="accordion-3">
+                <label class="accordion-item-trigger" for="accordion-3">
+                    Employment
+                </label>
+                <div class="accordion-item-content">
+                    <img src="memes\employment.jpg">
+                </div>
+            </div>
+            <div class="accordion-item"></div>
+                <input class="accordion-item-input" type="checkbox" id="accordion-4">
+                <label class="accordion-item-trigger" for="accordion-4">
+                    Sigma
+                </label>
+                <div class="accordion-item-content">
+                    <img src="memes\sigma.jpg">
+                </div>
+            </div>
+            <div class="accordion-item"></div>
+                <input class="accordion-item-input" type="checkbox" id="accordion-5">
+                <label class="accordion-item-trigger" for="accordion-5">
+                    Willpower
+                </label>
+                <div class="accordion-item-content">
+                    <img src="memes\trainspotting.jpg">
+                </div>
+            </div>
+        </div>
     </div>
 </body>
